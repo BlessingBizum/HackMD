@@ -570,16 +570,75 @@ video {
   margin: 0.75rem;
 }
 
+.m-\[40px\] {
+  margin: 40px;
+}
+
+.mx-\[100px\] {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.mx-\[20px\] {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mx-\[30px\] {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+
+.mb-\[30-px\] {
+  margin-bottom: 30-px;
+}
+
+.mb-\[30px\] {
+  margin-bottom: 30px;
 }
 
 .ml-48 {
   margin-left: 12rem;
 }
 
+.ml-\[100px\] {
+  margin-left: 100px;
+}
+
+.ml-\[50px\] {
+  margin-left: 50px;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
 .mt-56 {
   margin-top: 14rem;
+}
+
+.mt-72 {
+  margin-top: 18rem;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
+.box-border {
+  box-sizing: border-box;
 }
 
 .flex {
@@ -606,8 +665,12 @@ video {
   height: 100%;
 }
 
-.h-\[50\%\] {
-  height: 50%;
+.h-\[60\%\] {
+  height: 60%;
+}
+
+.h-\[65\%\] {
+  height: 65%;
 }
 
 .h-\[74\.5\%\] {
@@ -618,16 +681,16 @@ video {
   height: 100vh;
 }
 
-.h-\[65\%\] {
-  height: 65%;
-}
-
-.h-\[60\%\] {
-  height: 60%;
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-16 {
   width: 4rem;
+}
+
+.w-20 {
+  width: 5rem;
 }
 
 .w-32 {
@@ -654,16 +717,48 @@ video {
   width: 70%;
 }
 
+.w-\[75\%\] {
+  width: 75%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.grid-flow-row {
+  grid-auto-flow: row;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.place-items-start {
+  place-items: start;
 }
 
 .items-center {
   align-items: center;
 }
 
+.items-baseline {
+  align-items: baseline;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .gap-2 {
@@ -690,12 +785,24 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-\[12px\] {
+  border-radius: 12px;
+}
+
+.rounded-\[7px\] {
+  border-radius: 7px;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
 
 .rounded-md {
   border-radius: 0.375rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .rounded-xl {
@@ -710,8 +817,28 @@ video {
   border-width: 1px;
 }
 
+.border-\[\#4b43ae\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(75 67 174 / var(--tw-border-opacity, 1));
+}
+
 .border-current {
   border-color: currentColor;
+}
+
+.bg-\[\#18181b\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 24 27 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#1f1f35\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 31 53 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#222030\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 32 48 / var(--tw-bg-opacity, 1));
 }
 
 .bg-black {
@@ -759,14 +886,37 @@ video {
   padding: 0.5rem;
 }
 
+.p-\[20px\] {
+  padding: 20px;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
+.px-\[15px\] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .py-48 {
   padding-top: 12rem;
   padding-bottom: 12rem;
+}
+
+.py-\[4px\] {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.py-\[50px\] {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pb-\[30px\] {
+  padding-bottom: 30px;
 }
 
 .pl-5 {
@@ -781,8 +931,20 @@ video {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
 .text-\[28px\] {
   font-size: 28px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
 }
 
 .text-\[45px\] {
@@ -817,9 +979,19 @@ video {
   color: rgb(91 84 196 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#a3a0b9\] {
+  --tw-text-opacity: 1;
+  color: rgb(163 160 185 / var(--tw-text-opacity, 1));
+}
+
 .text-\[\#bebdc9\] {
   --tw-text-opacity: 1;
   color: rgb(190 189 201 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#d4d4d8\] {
+  --tw-text-opacity: 1;
+  color: rgb(212 212 216 / var(--tw-text-opacity, 1));
 }
 
 .text-inherit {
@@ -833,6 +1005,10 @@ video {
 
 .bg-blend-overlay {
   background-blend-mode: overlay;
+}
+
+.ease-out {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
 .before\:absolute::before {
@@ -895,4 +1071,9 @@ video {
 .before\:content-\[\'Click_Me\'\]::before {
   --tw-content: 'Click Me';
   content: var(--tw-content);
+}
+
+.hover\:bg-\[\#413ba5\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(65 59 165 / var(--tw-bg-opacity, 1));
 }
